@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+>Log Session: Wednesday, March 30, 2022 at 4:25:06 PM Central European Summer Time
+>System Info: 
+  Product Version         = NetBeansLab1 12.6-9cacf1fd305b775b176576c8b633b10b73524861
+  Operating System        = Mac OS X version 11.6.4 running on x86_64
+  Java; VM; Vendor        = 17.0.2; OpenJDK 64-Bit Server VM 17.0.2+8-86; Oracle Corporation
+  Runtime                 = OpenJDK Runtime Environment 17.0.2+8-86
+  Java Home               = /Users/oliverheine/Library/Java/JavaVirtualMachines/openjdk-17.0.2/Contents/Home
+  System Locale; Encoding = da_DK (netbeanslab1); UTF-8
+  Home Directory          = /Users/oliverheine
+  Current Directory       = /Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application
+  User Directory          = /Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/userdir
+  Cache Directory         = /Users/oliverheine/Library/Caches/netbeanslab1/dev
+  Installation            = /Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/asteroidsnetbeansmodules
+                            /Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/bin
+                            /Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform
+                            /Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/etc
+                            /Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/extra
+                            /Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/netbeanslab1
+                            /Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform
+  Boot & Ext. Classpath   = 
+  Application Classpath   = /Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform/lib/boot.jar:/Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform/lib/org-openide-modules.jar:/Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform/lib/org-openide-util-lookup.jar:/Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform/lib/org-openide-util-ui.jar:/Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform/lib/org-openide-util.jar
+  Startup Classpath       = /Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform/core/asm-tree-9.2.jar:/Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform/core/org-netbeans-libs-asm.jar:/Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform/core/org-openide-filesystems.jar:/Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform/core/asm-9.2.jar:/Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform/core/asm-commons-9.2.jar:/Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform/core/core.jar:/Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/platform/core/core-base.jar:/Users/oliverheine/Desktop/University/Semester_4/CBSE/HandIn1/NetBeansLab1/application/target/netbeanslab1/netbeanslab1/core/locale/core_netbeanslab1.jar
+-------------------------------------------------------------------------------
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	org.openide.util.lookup [8.48 12.6-9cacf1fd305b775b176576c8b633b10b73524861]
+	org.openide.util [9.22 12.6-9cacf1fd305b775b176576c8b633b10b73524861]
+	org.openide.util.ui [9.22 12.6-9cacf1fd305b775b176576c8b633b10b73524861]
+	org.openide.modules [7.62 12.6-9cacf1fd305b775b176576c8b633b10b73524861]
+	org.openide.filesystems [9.26 12.6-9cacf1fd305b775b176576c8b633b10b73524861]
+	org.netbeans.libs.asm [5.17 12.6-9cacf1fd305b775b176576c8b633b10b73524861]
+	org.netbeans.bootstrap/1 [2.92 12.6-9cacf1fd305b775b176576c8b633b10b73524861]
+	org.netbeans.core.startup.base [1.76.0.1 1 12.6-9cacf1fd305b775b176576c8b633b10b73524861]
+	org.netbeans.core.startup/1 [1.76.0.1 12.6-9cacf1fd305b775b176576c8b633b10b73524861]
+	org.netbeans.libs.osgi [1.36 12.6-9cacf1fd305b775b176576c8b633b10b73524861]
+	org.netbeans.core.netigso [1.45 12.6-9cacf1fd305b775b176576c8b633b10b73524861]
+	org.netbeans.modules.netbinox [1.55 12.6-9cacf1fd305b775b176576c8b633b10b73524861]
+	org.netbeans.api.annotations.common/1 [1.42 12.6-9cacf1fd305b775b176576c8b633b10b73524861]
+	dk.sdu.mmmi.cbse.Common [1.0 1.0-20220330 202203301424]
+	dk.sdu.mmmi.cbse.CommonBullet [1.0 1.0-20220330 202203301424]
+	dk.sdu.mmmi.cbse.Player [1.0 1.0-20220330 202203301424]
+	dk.sdu.mmmi.cbse.NetBeansLab1.branding [1.0 1.0-20220330 202203301424]
+	dk.sdu.mmmi.cbse.CommonEnemy [1.0 1.0-20220330 202203301424]
+	dk.sdu.mmmi.cbse.Enemy [1.0 1.0-20220330 202203301424]
+	dk.sdu.mmmi.cbse.Core [1.0 1.0-20220330 202203301424]
+	dk.sdu.mmmi.cbse.CommonAsteroids [1.0 1.0-20220310 202203100834]
+	dk.sdu.mmmi.cbse.CommonAsteroid [1.0 1.0-20220330 202203301424]
+	dk.sdu.mmmi.cbse.Collision [1.0 1.0-20220330 202203301424]
+	dk.sdu.mmmi.cbse.Bullet [1.0 1.0-20220330 202203301424]
+	dk.sdu.mmmi.cbse.Asteroid [1.0 1.0-20220330 202203301424]

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="dk.sdu.mmmi.cbse.collisionsystem.CollisionDetectorTest" time="0.083" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/oliverheine/Desktop/University/Semester_4/CBSE/SB4-KOM-F20/TestLab/Collision/target/test-classes:/Users/oliverheine/Desktop/University/Semester_4/CBSE/SB4-KOM-F20/TestLab/Collision/target/classes:/Users/oliverheine/.m2/repository/org/netbeans/api/org-netbeans-api-annotations-common/RELEASE112/org-netbeans-api-annotations-common-RELEASE112.jar:/Users/oliverheine/Desktop/University/Semester_4/CBSE/SB4-KOM-F20/TestLab/Common/target/Common-1.0-SNAPSHOT.jar:/Users/oliverheine/.m2/repository/org/netbeans/api/org-openide-modules/RELEASE112/org-openide-modules-RELEASE112.jar:/Users/oliverheine/.m2/repository/org/netbeans/api/org-openide-util/RELEASE112/org-openide-util-RELEASE112.jar:/Users/oliverheine/.m2/repository/org/netbeans/api/org-openide-util-ui/RELEASE112/org-openide-util-ui-RELEASE112.jar:/Users/oliverheine/.m2/repository/org/netbeans/api/org-openide-util-lookup/RELEASE112/org-openide-util-lookup-RELEASE112.jar:/Users/oliverheine/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/oliverheine/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/oliverheine/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/oliverheine/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/oliverheine/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/Users/oliverheine/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/oliverheine/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DK"/>
+    <property name="sun.boot.library.path" value="/Users/oliverheine/Library/Java/JavaVirtualMachines/openjdk-17.0.2/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/oliverheine/Desktop/University/Semester_4/CBSE/SB4-KOM-F20/TestLab/Collision/target/surefire/surefirebooter10010429392076638116.jar /Users/oliverheine/Desktop/University/Semester_4/CBSE/SB4-KOM-F20/TestLab/Collision/target/surefire 2022-04-20T10-37-20_094-jvmRun1 surefire18183942417650582473tmp surefire_0424995024922525237tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/oliverheine/Desktop/University/Semester_4/CBSE/SB4-KOM-F20/TestLab/Collision/target/test-classes:/Users/oliverheine/Desktop/University/Semester_4/CBSE/SB4-KOM-F20/TestLab/Collision/target/classes:/Users/oliverheine/.m2/repository/org/netbeans/api/org-netbeans-api-annotations-common/RELEASE112/org-netbeans-api-annotations-common-RELEASE112.jar:/Users/oliverheine/Desktop/University/Semester_4/CBSE/SB4-KOM-F20/TestLab/Common/target/Common-1.0-SNAPSHOT.jar:/Users/oliverheine/.m2/repository/org/netbeans/api/org-openide-modules/RELEASE112/org-openide-modules-RELEASE112.jar:/Users/oliverheine/.m2/repository/org/netbeans/api/org-openide-util/RELEASE112/org-openide-util-RELEASE112.jar:/Users/oliverheine/.m2/repository/org/netbeans/api/org-openide-util-ui/RELEASE112/org-openide-util-ui-RELEASE112.jar:/Users/oliverheine/.m2/repository/org/netbeans/api/org-openide-util-lookup/RELEASE112/org-openide-util-lookup-RELEASE112.jar:/Users/oliverheine/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/oliverheine/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/oliverheine/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/oliverheine/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/oliverheine/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/Users/oliverheine/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/oliverheine/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/oliverheine"/>
+    <property name="user.language" value="da"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/Users/oliverheine/Library/Java/JavaVirtualMachines/openjdk-17.0.2/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/oliverheine/Desktop/University/Semester_4/CBSE/SB4-KOM-F20/TestLab/Collision"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/oliverheine/Desktop/University/Semester_4/CBSE/SB4-KOM-F20/TestLab/Collision/target/surefire/surefirebooter10010429392076638116.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.2+8-86"/>
+    <property name="user.name" value="oliverheine"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.6.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/oliverheine/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/84/___hpcb94ss1dbrvk55jrqlr0000gn/T/"/>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="/Users/oliverheine/Desktop/University/Semester_4/CBSE/SB4-KOM-F20/TestLab/Collision"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/oliverheine/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testProcess" classname="dk.sdu.mmmi.cbse.collisionsystem.CollisionDetectorTest" time="0.033">
+    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "dk.sdu.mmmi.cbse.common.data.Entity.getPart(java.lang.Class)" because "entity" is null
+	at dk.sdu.mmmi.cbse.collisionsystem.CollisionDetectorTest.testCollides(CollisionDetectorTest.java:59)
+	at dk.sdu.mmmi.cbse.collisionsystem.CollisionDetectorTest.testProcess(CollisionDetectorTest.java:46)
+]]></error>
+    <system-out><![CDATA[Collides
+]]></system-out>
+  </testcase>
+</testsuite>

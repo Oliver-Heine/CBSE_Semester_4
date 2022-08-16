@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: dk.sdu.mmmi.cbse.collisionsystem.CollisionDetectorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.083 s <<< FAILURE! - in dk.sdu.mmmi.cbse.collisionsystem.CollisionDetectorTest
+dk.sdu.mmmi.cbse.collisionsystem.CollisionDetectorTest.testProcess  Time elapsed: 0.033 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "dk.sdu.mmmi.cbse.common.data.Entity.getPart(java.lang.Class)" because "entity" is null
+	at dk.sdu.mmmi.cbse.collisionsystem.CollisionDetectorTest.testCollides(CollisionDetectorTest.java:59)
+	at dk.sdu.mmmi.cbse.collisionsystem.CollisionDetectorTest.testProcess(CollisionDetectorTest.java:46)
+

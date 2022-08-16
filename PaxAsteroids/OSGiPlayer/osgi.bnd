@@ -1,0 +1,7 @@
+#-----------------------------------------------------------------
+# Use this file to add customized Bnd instructions for the bundle
+#-----------------------------------------------------------------
+Bundle-SymbolicName: OSGiPlayer
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: dk.sdu.mmmi.osgiplayer.Activator
+Service-Component: META-INF/entityprocessor.xml
